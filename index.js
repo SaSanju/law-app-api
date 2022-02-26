@@ -30,7 +30,6 @@ mongoose
   });
 
 // Middleware
-app.use("/images", express.static(path.join(__dirname, "public/images")));
 app.use(express.json());
 app.use(helmet());
 app.use(cors());
